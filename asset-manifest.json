@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/fifteen-game/static/css/main.fd8110bd.css",
+    "main.js": "/fifteen-game/static/js/main.f0e34158.js",
+    "index.html": "/fifteen-game/index.html",
+    "main.fd8110bd.css.map": "/fifteen-game/static/css/main.fd8110bd.css.map",
+    "main.f0e34158.js.map": "/fifteen-game/static/js/main.f0e34158.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd8110bd.css",
+    "static/js/main.f0e34158.js"
+  ]
+}
