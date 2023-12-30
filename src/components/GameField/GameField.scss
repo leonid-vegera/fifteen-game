@@ -1,0 +1,10 @@
+.game-field {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  max-height: 500px;
+  background-color: #6e6ee0;
+  padding: 50px;
+  border-radius: 20px;
+  position: relative;
+}

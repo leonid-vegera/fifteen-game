@@ -1,0 +1,33 @@
+.game-cell {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 2px solid #34050c;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  transition: all 0.7s;
+  color: #34050c;
+  cursor: pointer;
+
+  &--transparent {
+    opacity: 0;
+    border-color: transparent;
+  }
+
+  &:hover{
+    background-color: #f1dddd;
+    color: #50151e;
+  }
+
+  &:active{
+    background-color: #b4b4ea;
+    color: #100405;
+  }
+
+
+
+}
+
