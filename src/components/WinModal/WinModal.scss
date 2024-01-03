@@ -17,6 +17,11 @@
     font-weight: 900;
     flex-grow: 4;
     margin: 130px 0;
+
+    @media (max-width: 768px) {
+      margin: 70px 0;
+      font-size: 50px;
+    }
   }
 
   &__button{

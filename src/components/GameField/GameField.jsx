@@ -2,7 +2,7 @@ import * as React from 'react';
 import './GameField.scss'
 import { GameCell } from '../GameCell/GameCell';
 import { initialCells} from '../../source/cellsData';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { WinModal } from '../WinModal/WinModal';
 
 export function GameField() {
@@ -33,12 +33,16 @@ export function GameField() {
     const updatedCells = [...cells];
 
     setCells([])
+    checkGame(updatedCells)
 
     setTimeout(() => {
       setCells(updatedCells);
-      checkGame(updatedCells)
     }, 0)
   }
+
+  useEffect(() => {
+    checkGame(cells)
+  }, []);
 
 
   return (
