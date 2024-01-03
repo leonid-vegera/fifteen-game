@@ -12,6 +12,14 @@
   color: #34050c;
   cursor: pointer;
 
+  @media (max-width: 768px) {
+    width: 70px;
+    height: 70px;
+    min-width: 70px;
+    min-height: 70px;
+    font-size: 30px;
+  }
+
   &--transparent {
     opacity: 0;
     border-color: transparent;

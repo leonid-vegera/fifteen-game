@@ -7,9 +7,13 @@ import { WinModal } from '../WinModal/WinModal';
 
 export function GameField() {
   const [cells, setCells] = useState(initialCells);
+  const [isWin, setIsWin] = useState(false);
 
   const checkGame = (cells) => {
-    return cells.every((cell, index) => cell.order === index + 1);
+    const isWin = cells.every((cell, index) => cell.order === index + 1);
+    if (isWin) {
+      setIsWin(true);
+    }
   }
 
   const changeOrder = (cell) => {
@@ -36,15 +40,13 @@ export function GameField() {
     }, 0)
   }
 
-  const isGameWon = checkGame(cells);
-
 
   return (
     <div className='game-field'>
       {cells.map(cell => (
         <GameCell key={cell.index} cell={cell} handleClick={changeOrder}></GameCell>
       ))}
-      { isGameWon && (
+      { isWin && (
         <WinModal />
       )}
     </div>

@@ -1,10 +1,19 @@
 .game-field {
   display: flex;
   flex-wrap: wrap;
-  max-width: 500px;
-  max-height: 500px;
+  width: 500px;
+  height: 500px;
   background-color: #6e6ee0;
   padding: 50px;
   border-radius: 20px;
   position: relative;
+
+  @media (max-width: 768px) {
+    width: 320px;
+    height: 320px;
+    min-width: 320px;
+    min-height: 320px;
+    padding: 20px;
+    background-color: coral;
+  }
 }
