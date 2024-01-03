@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/fifteen-game/static/css/main.57676cb0.css",
-    "main.js": "/fifteen-game/static/js/main.29d2c56e.js",
+    "main.css": "/fifteen-game/static/css/main.e42fefda.css",
+    "main.js": "/fifteen-game/static/js/main.99e34def.js",
     "index.html": "/fifteen-game/index.html",
-    "main.57676cb0.css.map": "/fifteen-game/static/css/main.57676cb0.css.map",
-    "main.29d2c56e.js.map": "/fifteen-game/static/js/main.29d2c56e.js.map"
+    "main.e42fefda.css.map": "/fifteen-game/static/css/main.e42fefda.css.map",
+    "main.99e34def.js.map": "/fifteen-game/static/js/main.99e34def.js.map"
   },
   "entrypoints": [
-    "static/css/main.57676cb0.css",
-    "static/js/main.29d2c56e.js"
+    "static/css/main.e42fefda.css",
+    "static/js/main.99e34def.js"
   ]
 }
